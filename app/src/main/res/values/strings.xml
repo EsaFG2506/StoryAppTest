@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">StoryAppTest</string>
+
+    <string name="message_welcome_page">Here you can share your story along with photo as much as you like!! You can also seeing other people story and interact each other :)</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="empty_image_warning">Silakan masukkan berkas gambar terlebih dahulu!</string>
+
+    <string name="btnCamera">Kamera</string>
+    <string name="btnGallery">Galeri</string>
+    <string name="btnUpload">Unggah</string>
+
+    <string name="menu_bahasa">Bahasa</string>
+    <string name="menu_logout">Keluar</string>
+
+    <string name="title_welcome_page">Selamat datang di Freztagram !</string>
+    <string name="title_signup_page">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="title_login_page">Siap untuk memasuki Freztagram?</string>
+
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="name">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup_nama">Masukan Nama</string>
+    <string name="signup_email">Masukan Email</string>
+    <string name="signup_password">Masukan Password</string>
+
+    <string name="hintNama">Nama</string>
+    <string name="hintDeskripsi">Deskripsi Cerita</string>
+
+    <string name="contentDesc_login">Login Image</string>
+    <string name="contentDesc_signup">Sign Up Image</string>
+    <string name="ContentDesc_welcome">Welcome Image</string>
+    <string name="contentDesc_main">Main Activity</string>
+    <string name="contentDesc_rv_main">Daftar Cerita: Menampilkan daftar cerita yang tersedia</string>
+    <string name="desc_story_pic">Gambar Story</string>
+    <string name="desc_upload">Add story image</string>
+    <string name="add_btn_desc">Tambahkan cerita baru</string>
+
+</resources>
