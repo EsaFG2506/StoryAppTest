@@ -13,7 +13,6 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.widget.Toolbar
 import com.dicoding.storyapptest.R
-import com.dicoding.storyapptest.data.response.ListStoryItem
 import com.dicoding.storyapptest.databinding.ActivityDetailBinding
 import com.dicoding.storyapptest.utils.Result
 import com.dicoding.storyapptest.views.StoryViewModelFactory
@@ -39,11 +38,11 @@ class DetailActivity : AppCompatActivity() {
 
     @Suppress("DEPRECATION")
     private fun setupAction() {
-        val storyItem = intent.getParcelableExtra<ListStoryItem>("storyItem")
+        val storyItem = intent.getStringExtra("id")
         Log.d("DetailActivity", "Received id: $storyItem")
         if (storyItem != null) {
             showLoading(true)
-            detailViewModel.getDetailStories(storyItem.id).observe(this) { result ->
+            detailViewModel.getDetailStories(storyItem).observe(this) { result ->
                 if (result != null) {
                     when (result) {
                         is Result.Loading -> {
